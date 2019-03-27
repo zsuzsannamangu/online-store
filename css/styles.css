@@ -1,0 +1,24 @@
+#answer {
+  display: none;
+}
+
+#answer .name {
+  font-weight: bolder;
+}
+
+#answer .address {
+  font-weight: bolder;
+}
+
+.btn {
+  background-color: #efefef;
+  border: none;
+  color: #393f4d;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 500px;
+}

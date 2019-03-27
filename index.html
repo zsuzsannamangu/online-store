@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Store</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to my store!</h1>
+      <form id="info">
+      <div class="form-group">
+        <label for="name">What is your full name?</label>
+        <input id="name" class="form-control" type="text">
+      </div>
+
+      <div class="form-group">
+        <label for="address">What is your full address?</label>
+        <input id="address" class="form-control" type="text">
+      </div>
+
+      <button type="submit" class="btn">Submit</button>
+      </form>
+
+      <div id="answer">
+        <p>Dear <span class="name"></span>, thank you for your purchase.</p>
+        <p>Your total today is $45.</p>
+        <p>Your products should arrive in 3 days at <span class="address"></span>.</p>
+      </div>
+    </div>
