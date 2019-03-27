@@ -20,5 +20,12 @@
 }
 
 .container {
-  max-width: 500px;
+  max-width: 600px;
+  border: 10px solid #caebf2;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.answername{
+  margin-top: 30px;
 }

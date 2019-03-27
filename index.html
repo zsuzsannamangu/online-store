@@ -21,11 +21,32 @@
         <input id="address" class="form-control" type="text">
       </div>
 
+      <h5>What did you purchase?</h5>
+      <div class="radio">
+        <label>
+          <input type="radio" name="jewelry" value="necklace" checked>
+          Necklace
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="jewelry" value="earrings" checked>
+          Earrings
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="jewelry" value="bracelet" checked>
+          Bracelet
+        </label>
+      </div>
+
+
       <button type="submit" class="btn">Submit</button>
       </form>
 
       <div id="answer">
-        <p>Dear <span class="name"></span>, thank you for your purchase.</p>
+        <p class="answername">Dear <span class="name"></span>, thank you for your purchase.</p>
         <p>Your total today is $45.</p>
         <p>Your products should arrive in 3 days at <span class="address"></span>.</p>
       </div>
